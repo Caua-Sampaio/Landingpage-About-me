@@ -15,16 +15,19 @@
     .home-img img{
         width: 25vw;
         border-radius: 50%;
-        border: 8px solid var(--elements);
+        border: 6px solid var(--elements);
         box-shadow: 0 0 20px var(--main-color);
-        animation: float 3s ease-in-out infinite;
+        animation: float 5s ease-in-out infinite;
     }
 
     
     .home-img img:hover{
+        transform: scale(1.05);
         box-shadow: 0 0 25px var(--snd-main-color),
                     0 0 35px var(--snd-main-color),
                     0 0 45px var(--snd-main-color);
+
+        
     }
 
         @keyframes float {
@@ -32,7 +35,7 @@
                 transform: translateY(0);
             }
             50% {
-                transform: translateY(-20px);
+                transform: translateY(-25px);
             }
     }
 
@@ -74,7 +77,7 @@
             height: 45px;
             background: transparent;
             border-radius: 50%;
-            border: 0.2rem solid var(--main-color);
+            border: 0.15rem solid var(--main-color);
             font-size: 1.75rem;
             color: var(--main-color);
             margin: 3rem 1.5rem 3rem 0;
@@ -113,3 +116,51 @@
 
 
 /* -------------------------------------------------- SECTION ABOUT ME -------------------------------------------------- */
+
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background: var(--elements);
+}
+
+    .about-img img{
+        width: 25vw;
+        border: 2px solid var(--elements);
+        border-radius: 50%;
+        box-shadow: 0 0 25px var(--main-color);
+        cursor: pointer;
+        transition: 0.4s ease;
+    } 
+
+    
+    .about-img img:hover{
+        box-shadow: 0 0 25px var(--snd-main-color),
+                    0 0 35px var(--snd-main-color),
+                    0 0 45px var(--snd-main-color);
+    }
+
+    .heading{
+        text-align: left;
+        font-size: 6rem;
+    }
+
+    .about-content{
+        margin-left: 0.4rem;
+    }
+
+        .about-content h2{
+            text-align: left;
+            line-height: 1.2;
+        }
+
+        .about-content h3{
+            font-size: 3rem;
+        }
+
+        .about-content p{
+            font-size: 1.6rem;
+            margin: 2rem 0 3rem;
+        }
