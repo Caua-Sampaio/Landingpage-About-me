@@ -93,26 +93,6 @@
                 transform: scale(1.05);
             }
         
-        .btn{
-            display: inline-block;
-            padding: 1rem 2.5rem;
-            background: var(--main-color);
-            border-radius: 4rem;
-            box-shadow: none;
-            font-size: 1.2rem;
-            color: var(--text-color);
-            letter-spacing: 0.1rem;
-            font-weight: 600;
-            cursor: pointer;
-            transition: 0.3s ease;
-        }
-
-            .btn:hover{
-                background: var(--elements);
-                color: var(--snd-main-color);
-                box-shadow: 0 0 20px var(--snd-main-color);
-                transform: scale(1.05);
-            }
 
 
 /* -------------------------------------------------- SECTION ABOUT ME -------------------------------------------------- */
@@ -164,3 +144,85 @@
             font-size: 1.6rem;
             margin: 2rem 0 3rem;
         }
+
+
+
+/* -------------------------------------------------- SECTION PROJECTS -------------------------------------------------- */
+
+.projects{
+    background-color: var(--bg-color);
+}
+
+.projects-box{
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projects .heading{
+    margin-bottom: 5rem;
+}
+
+.projects-box img{
+    width: 15rem;
+    border-radius: 50%;
+    border: 3px solid var(--elements);
+    box-shadow: 0 0 25px var(--main-color);
+}
+
+.wr
+    
+
+
+
+/* -------------------------------------------------- SECTION SERVICES -------------------------------------------------- */
+
+.services{
+    background-color: var(--elements);
+}
+
+    .services h2{
+        margin-bottom: 4rem;
+        text-align: center;
+    }
+
+    .services-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    .services-container .services-box{
+        flex: 1 1 30rem;
+        background: var(--elements);
+        padding: 6rem 2rem 6rem;
+        border-radius: 2rem;
+        text-align: center;
+        border: 0.3rem solid var(--main-color);
+        transition: 0.3s ease;
+    }
+
+    .services-container .services-box:hover{
+        box-shadow: 0 0 15px var(--snd-main-color);
+        transform: scale(1.02);
+    }
+
+    .services-box i{
+        font-size: 7rem;
+        color: var(--main-color);
+    }
+
+    .services-box h3{
+        font-size: 2.5rem;
+        margin: 1rem 0 0.5rem;
+    }
+
+    .services-box p{
+        font-size: 1rem;
+        line-height: 1.5;
+        margin: 1rem 0 3rem;
+    }

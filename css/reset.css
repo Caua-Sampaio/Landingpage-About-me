@@ -44,3 +44,25 @@ section{
 span{
     color: var(--main-color);
 }
+
+
+.btn{
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: none;
+    font-size: 1.2rem;
+    color: var(--text-color);
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+    .btn:hover{
+        background: var(--elements);
+        color: var(--snd-main-color);
+        box-shadow: 0 0 20px var(--snd-main-color);
+        transform: scale(1.05);
+    }
