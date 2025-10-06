@@ -124,7 +124,7 @@
 
     .heading{
         text-align: left;
-        font-size: 6rem;
+        font-size: 4.5rem;
     }
 
     .about-content{
@@ -149,11 +149,11 @@
 
 /* -------------------------------------------------- SECTION PROJECTS -------------------------------------------------- */
 
-.projects{
+.project{
     background-color: var(--bg-color);
 }
 
-.projects-box{
+.project-box{
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -161,19 +161,62 @@
     flex-direction: column;
 }
 
-.projects .heading{
-    margin-bottom: 5rem;
+
+.project-box .heading{
+    font-size: 5rem;
+    margin-bottom: 4rem;
 }
 
-.projects-box img{
+.project-box img{
     width: 15rem;
-    border-radius: 50%;
+    border-radius: 3rem;
     border: 3px solid var(--elements);
     box-shadow: 0 0 25px var(--main-color);
 }
 
-.wr
-    
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+}
+
+.project-item {
+    min-height: 450px;
+    max-width: 450px;
+    background: var(--elements);
+    border: 0.3rem solid var(--main-color);
+    border-radius: 2rem;
+    margin: 0 2rem;
+    padding: 20px 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    color: var(--text-color);
+    transition: 0.3s ease;
+}
+
+    .project-item:hover{
+        border-color: var(--snd-main-color);
+        transform: scale(1.02);
+    }
+
+    .project-item h3{
+        font-size: 3rem;
+        color: var(--main-color);
+    }
+
+    .project-item p{
+        font-size: 1.1rem;
+        line-height: 1.5;
+        text-align: center;
+        padding: 10px 10px 15px 10px;
+    }
+
+
+
 
 
 
@@ -184,6 +227,7 @@
 }
 
     .services h2{
+        font-size: 4rem;
         margin-bottom: 4rem;
         text-align: center;
     }
