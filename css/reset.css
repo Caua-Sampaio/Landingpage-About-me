@@ -41,6 +41,11 @@ section{
     padding: 10rem 9% 2rem;
 }
 
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Outfit', sans-serif;
+    color: var(--text-color);
+}
+
 span{
     color: var(--main-color);
 }
