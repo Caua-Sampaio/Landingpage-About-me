@@ -1,3 +1,6 @@
+/* ---------------------------------- Toggle Menu ---------------------------------- */
+
+
 let menu = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
@@ -11,6 +14,8 @@ window.onscroll = () => {
     navbar.classList.remove('active');
 }
 
+/* ---------------------------------- Multiplos textos ---------------------------------- */
+
 const typed = new Typed('.multiple-text', {
     strings: ['Desenvolvedor Front-End', 'Designer', 'Freelancer'],
     typeSpeed: 80,
@@ -18,3 +23,7 @@ const typed = new Typed('.multiple-text', {
     backDelay: 1200,
     loop: true,
 });
+
+
+
+
