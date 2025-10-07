@@ -17,7 +17,7 @@
     .services{
         padding: 7rem;
     }
-    .testemonial .wrapper{
+    .project .wrapper{
         grid-template-columns: repeat(1,1fr);
     }
     .contact form .input-box input{
@@ -81,7 +81,7 @@
     }
 }
 
-@media(max-width: 617px){
+@media(max-width: 660px){
     html{
         font-size: 50%;
     }
