@@ -269,3 +269,69 @@
         margin: 1rem 0 3rem;
     }
 
+
+
+/* -------------------------------------------------- SECTION CONTATO -------------------------------------------------- */
+
+.contact{
+    background: var(--bg-color);
+}
+
+.contact .heading{
+    text-align: center;
+}
+
+.contact h2{
+    margin-bottom: 3rem;
+    color: var(--text-color);
+}
+
+.contact form{
+    max-width: 80rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contact form .input-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact form .input-box input,
+.contact form textarea{
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background: var(--elements );
+    border-radius: 0.8rem;
+    border: 0.2rem solid var(--main-color);
+    margin: 0.7rem 0;
+    resize: none;
+}
+
+.contact form .input-box input{
+    width: 49%;
+    margin: 0.7rem 0.35rem;
+}
+
+.contact form .btn{
+    margin-top: 2rem;
+}
+
+.contact form .btn:disabled {
+    cursor: not-allowed;
+}
+
+.contact form input:hover,
+.contact form input:focus,
+.contact form textarea:hover,
+.contact form textarea:focus{
+    background: var(--elements);
+    color: var(--text-color);
+    border: 0.2rem solid var(--snd-main-color);
+    box-shadow: 0 0 20px var(--snd-main-color);
+    
+}
